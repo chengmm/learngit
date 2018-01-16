@@ -10,5 +10,8 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
 要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
 例如 git remote add origin git@github.com:michaelliao/learngit.git
+The git remote add command takes two arguments:
+A remote name, for example, origin
+A remote URL, for example, https://github.com/user/repo.git
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
